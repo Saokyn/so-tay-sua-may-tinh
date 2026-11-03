@@ -1,6 +1,6 @@
 # Nguồn hình ảnh
 
-Tất cả 55 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ tay sửa máy tính (SVG vẽ tay → WebP). Không có ảnh chụp, ảnh của bên thứ ba hay logo thương hiệu. Giấy phép: CC0.
+Tất cả 89 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ tay sửa máy tính (SVG vẽ tay → WebP). Không có ảnh chụp, ảnh của bên thứ ba hay logo thương hiệu. Giấy phép: CC0.
 
 | Tệp | Loại | Mô tả |
 |---|---|---|
@@ -13,6 +13,40 @@ Tất cả 55 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ
 | may-in.webp | Tái tạo giao diện | Máy in báo Offline và hàng đợi bị kẹt |
 | mang-may-tinh.webp | Tái tạo giao diện | Biểu tượng Wi-Fi có dấu chấm than vàng, No internet |
 | chieu-hdmi.webp | Tái tạo giao diện | TV hiển thị No Signal HDMI 1 |
+| ec-reset.webp | Vẽ minh hoạ | Laptop rút sạc, giữ nút nguồn để xả điện và reset EC |
+| pin-phong-touchpad.webp | Vẽ minh hoạ | Mặt cắt laptop: pin phồng đẩy touchpad và vỏ dưới cong |
+| coil-whine.webp | Vẽ minh hoạ | Card đồ hoạ/bo mạch phát tiếng rít điện từ cuộn cảm |
+| linh-kien-long.webp | Vẽ minh hoạ | Bo mạch laptop với RAM và SSD có thể bị lỏng |
+| pin-cham.webp | Tái tạo giao diện | Cài đặt giới hạn sạc 80% đang bật |
+| cmos-ssl.webp | Tái tạo giao diện | Trình duyệt báo lỗi chứng chỉ vì đồng hồ máy bị sai năm |
+| lech-gio.webp | Tái tạo giao diện | Cài đặt Date & time với đồng bộ giờ tự động đang tắt |
+| hello-van-tay.webp | Tái tạo giao diện | Windows Hello báo lỗi khi đăng nhập bằng vân tay |
+| phim-dinh.webp | Tái tạo giao diện | Cài đặt bàn phím trợ năng với Sticky keys và Filter keys đang bật |
+| fn-numlock.webp | Vẽ minh hoạ | Bàn phím laptop có số nhỏ in trên phím U I O J K L |
+| bo-go-tv.webp | Tái tạo giao diện | Gõ tiếng Việt bị lặp chữ khi nhiều bộ gõ cùng chạy |
+| chuot-giat.webp | Vẽ minh hoạ | So sánh chuột trên bàn kính và trên lót chuột |
+| man-nhap-nhay.webp | Tái tạo giao diện | Cài đặt màn hình nâng cao: tần số quét, VRR, Panel Self-Refresh |
+| hdr-nhat.webp | Tái tạo giao diện | Cài đặt HDR với thanh SDR content brightness |
+| scaling-mo.webp | Tái tạo giao diện | Hộp thoại ghi đè DPI cao trong Properties của ứng dụng |
+| hdmi-cec.webp | Tái tạo giao diện | Menu TV với tuỳ chọn HDMI-CEC Anynet+ |
+| am-re-dpc.webp | Tái tạo giao diện | LatencyMon chỉ ra driver gây trễ âm thanh |
+| bt-hfp.webp | Tái tạo giao diện | Danh sách thiết bị âm thanh có bản Stereo và Hands-Free |
+| u-loa.webp | Vẽ minh hoạ | Laptop nối loa ngoài kèm bộ cách ly vòng lặp mát |
+| usb3-wifi.webp | Vẽ minh hoạ | Ổ cứng USB 3.0 phát nhiễu làm Wi-Fi 2,4 GHz yếu |
+| ip-trung.webp | Tái tạo giao diện | Thông báo Windows phát hiện xung đột địa chỉ IP |
+| mtu-vai-web.webp | Tái tạo giao diện | Lệnh ping kiểm tra MTU trong Terminal |
+| router-nong.webp | Vẽ minh hoạ | Router nóng đặt trong tủ kín |
+| fast-startup.webp | Tái tạo giao diện | Hộp thoại cài đặt nút nguồn với Turn on fast startup |
+| modern-standby.webp | Tái tạo giao diện | Kết quả powercfg /a cho thấy Modern Standby |
+| usb-suspend.webp | Tái tạo giao diện | Tab Power Management của USB Root Hub đã bỏ tick |
+| onedrive.webp | Tái tạo giao diện | Thư mục OneDrive với ba biểu tượng trạng thái |
+| explorer-cham.webp | Tái tạo giao diện | Explorer đang “Working on it” vì ổ mạng không truy cập được |
+| av-trung.webp | Tái tạo giao diện | Windows Security liệt kê nhiều phần mềm diệt virus |
+| scam-popup.webp | Tái tạo giao diện | Trang cảnh báo virus giả bắt gọi số hỗ trợ |
+| excel-readonly.webp | Tái tạo giao diện | Thanh Protected View và thanh chặn macro trong Excel |
+| office-kich-hoat.webp | Tái tạo giao diện | Word báo Unlicensed Product và đăng nhập sai tài khoản |
+| quyen-duong-dan.webp | Tái tạo giao diện | Lỗi đường dẫn quá dài khi chép file |
+| spooler.webp | Tái tạo giao diện | Lệnh dừng, xoá hàng đợi và khởi động lại Print Spooler |
 | khong-len-nguon.webp | Vẽ minh hoạ | Thùng máy bấm nguồn không có đèn, quạt không quay |
 | khong-len-hinh.webp | Vẽ minh hoạ | Màn hình đen trong khi thùng máy đèn sáng, quạt quay |
 | hong-nguon-main.webp | Vẽ minh hoạ | Bộ nguồn máy tính bốc khói, mùi khét |
