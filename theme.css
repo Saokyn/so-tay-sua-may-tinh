@@ -105,3 +105,9 @@ body{padding-bottom:100px}
 .sug{flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x proximity;padding:2px 2px 6px;margin-bottom:6px;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent);scrollbar-width:none}.sug::-webkit-scrollbar{display:none}
 .sug .chip{flex:none;scroll-snap-align:start;white-space:nowrap}
 .aiin{z-index:4}
+/* v6: bộ lọc Loại + hướng dẫn cài đặt */
+.ltabs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:14px 0 4px}.ltabs b{font-size:13px;color:var(--mu,#8a94a6)}
+.ltab{padding:7px 14px;border-radius:999px;border:1px solid var(--bd);background:var(--card);color:var(--tx);text-decoration:none;font-size:14px;font-weight:600}
+.ltab.on{background:var(--ac);border-color:var(--ac);color:#fff}
+.chip.how{background:#dbeafe;color:#1e3a8a;border-color:#bfdbfe}
+.box.muc{border-left:4px solid var(--ac)}.box.loi .list{margin-top:8px}

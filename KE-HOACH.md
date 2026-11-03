@@ -28,7 +28,7 @@ app/
 | `#/fav`, `#/safety`, `#/tools`, `#/parts`, `#/maint` | Yêu thích, An toàn, Phím tắt, Thuật ngữ, Bảo trì định kỳ |
 | `#/ai` | Hỏi AI |
 
-### Nhóm nội dung (86 hướng dẫn, 25 chủ đề, 7 nhóm — v5 thêm 34 hướng dẫn nhóm “Lỗi không ngờ tới” trong 7 chủ đề: phần cứng 19 · Windows/khởi động/dữ liệu 10 · ngoại vi 8 · mạng 7 · ứng dụng 4 · macOS & điện thoại 4)
+### Nhóm nội dung (122 hướng dẫn = 86 sửa lỗi + 36 hướng dẫn cài đặt; 33 chủ đề, 8 nhóm — v6 thêm nhóm “Hướng dẫn cài đặt & kết nối” (8 chủ đề) và bộ lọc Loại; v5 thêm 34 hướng dẫn nhóm “Lỗi không ngờ tới” trong 7 chủ đề: phần cứng 19 · Windows/khởi động/dữ liệu 10 · ngoại vi 8 · mạng 7 · ứng dụng 4 · macOS & điện thoại 4)
 - Danh sách đầy đủ xem ở trang chủ ứng dụng (mỗi nhóm hiện số hướng dẫn).
 
 ### Định dạng dữ liệu (`data.js`)
@@ -65,7 +65,7 @@ app/
 - Tìm kiếm: so khớp theo từ (khớp nguyên từ hoặc tiền tố từ ≥3 ký tự), bắt buộc đủ mọi từ, ưu tiên cụm từ và tiêu đề.
 
 ## Hình ảnh (v3)
-- 89 hình WebP 800×500 (q75) trong app/img/, tự vẽ bằng SVG (imggen/*.py → build.py), 61 tái tạo giao diện + 28 vẽ minh hoạ, 0 ảnh bên thứ ba (xem img/CREDITS.md, trang #/credits).
+- 125 hình WebP 800×500 (q75) trong app/img/, tự vẽ bằng SVG (imggen/*.py → build.py), 88 tái tạo giao diện + 37 vẽ minh hoạ, 0 ảnh bên thứ ba (xem img/CREDITS.md, trang #/credits).
 - Mỗi triệu chứng hiện ảnh của hướng dẫn đích; ảnh bước: CMOS, SMART, đèn router (src/p7.js sinh từ imggen/mkp7.py).
 - SW stsmt-v3 precache toàn bộ ảnh. Chủ đề Zalo và Họp online tách riêng.
 
@@ -73,3 +73,9 @@ app/
 ## v5 (chưa đẩy lên mạng)
 - Thêm nhóm “Lỗi không ngờ tới” (cat ngo): 34 hướng dẫn trong src/p8a–p8d.js, 7 chủ đề chẩn đoán, câu hỏi liên kết từ các chủ đề cũ.
 - 34 hình mới (imggen/i10–i13.py). Service worker stsmt-v5.
+
+## v6 (chưa đẩy lên mạng)
+- Nhóm mới “Hướng dẫn cài đặt & kết nối”: 36 hướng dẫn (src/p9a–p9d.js), 8 chủ đề: máy in & scan 9 · màn hình/TV/máy chiếu 6 · âm thanh/Bluetooth/họp 2 · router & Wi-Fi 4 · chia sẻ file 2 · máy mới/cài Windows/sao lưu 5 · phần mềm & hỗ trợ từ xa 5 · bảo mật/gia đình/UPS 3.
+- Cấu trúc hướng dẫn: Mục đích · Cần chuẩn bị · Các bước · Kiểm tra kết quả · Lỗi hay gặp (liên kết bài sửa lỗi) · An toàn · Tự làm/ra tiệm.
+- Bộ lọc Loại (Tất cả / Sửa lỗi / Hướng dẫn) ở trang chủ (#/loai/hd, #/loai/sua) và trang tìm kiếm (#/sk/hd/…); tìm kiếm bao gồm mục đích, kiểm tra, lỗi hay gặp.
+- 36 hình mới (imggen/i14–i17.py). Service worker stsmt-v6.

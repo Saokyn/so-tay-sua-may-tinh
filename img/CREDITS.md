@@ -1,6 +1,6 @@
 # Nguồn hình ảnh
 
-Tất cả 89 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ tay sửa máy tính (SVG vẽ tay → WebP). Không có ảnh chụp, ảnh của bên thứ ba hay logo thương hiệu. Giấy phép: CC0.
+Tất cả 125 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ tay sửa máy tính (SVG vẽ tay → WebP). Không có ảnh chụp, ảnh của bên thứ ba hay logo thương hiệu. Giấy phép: CC0.
 
 | Tệp | Loại | Mô tả |
 |---|---|---|
@@ -47,6 +47,42 @@ Tất cả 89 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ
 | office-kich-hoat.webp | Tái tạo giao diện | Word báo Unlicensed Product và đăng nhập sai tài khoản |
 | quyen-duong-dan.webp | Tái tạo giao diện | Lỗi đường dẫn quá dài khi chép file |
 | spooler.webp | Tái tạo giao diện | Lệnh dừng, xoá hàng đợi và khởi động lại Print Spooler |
+| hd-in-usb.webp | Vẽ minh hoạ | Bốn bước cài máy in qua cáp USB |
+| hd-in-wifi.webp | Vẽ minh hoạ | Các bước kết nối máy in Wi-Fi bằng nút WPS |
+| hd-in-lan-ip.webp | Tái tạo giao diện | Trang router gán IP cố định cho máy in theo địa chỉ MAC |
+| hd-in-them-ip.webp | Tái tạo giao diện | Hộp thoại Add Printer chọn thêm máy in bằng địa chỉ IP |
+| hd-in-chia-se.webp | Tái tạo giao diện | Tab Sharing của máy in với Share this printer được chọn |
+| hd-in-dien-thoai.webp | Vẽ minh hoạ | Các bước in từ điện thoại qua Wi-Fi |
+| hd-scan.webp | Tái tạo giao diện | Trang cấu hình scan to folder SMB của máy in |
+| hd-in-2-mat.webp | Tái tạo giao diện | Cài đặt in 2 mặt và khổ giấy A4 |
+| hd-in-driver.webp | Tái tạo giao diện | Tên gói driver đầy đủ của các hãng máy in |
+| hd-tv-hdmi.webp | Vẽ minh hoạ | Các bước nối laptop với TV bằng cáp HDMI |
+| hd-win-p.webp | Tái tạo giao diện | Menu Win + P với bốn chế độ chiếu |
+| hd-miracast.webp | Tái tạo giao diện | Bảng Cast của Windows liệt kê TV để chiếu không dây |
+| hd-chromecast.webp | Tái tạo giao diện | Hộp thoại Cast của Chrome chọn TV Google TV |
+| hd-airplay.webp | Tái tạo giao diện | Danh sách Screen Mirroring trên iPhone/Mac |
+| hd-hai-man.webp | Tái tạo giao diện | Cài đặt Display với hai màn hình, màn chính và scaling |
+| hd-bt-ghep.webp | Tái tạo giao diện | Hộp thoại Add a device chọn Bluetooth |
+| hd-cam-mic.webp | Tái tạo giao diện | Quyền camera và micro trong Windows |
+| hd-wifi-mk.webp | Tái tạo giao diện | Trang quản trị router đổi tên và mật khẩu Wi-Fi |
+| hd-mesh.webp | Vẽ minh hoạ | Sơ đồ đặt bộ Wi-Fi mesh: modem, mesh chính, mesh phụ |
+| hd-wifi-khach.webp | Tái tạo giao diện | Cài đặt Wi-Fi khách có cách ly mạng nội bộ |
+| hd-router-dns.webp | Tái tạo giao diện | Cài đặt DNS trong DHCP của router và cảnh báo mở cổng |
+| hd-lan-share.webp | Tái tạo giao diện | Cài đặt chia sẻ nâng cao và đường dẫn thư mục chia sẻ |
+| hd-dt-pc.webp | Tái tạo giao diện | Tuỳ chọn USB trên Android chọn truyền tệp |
+| hd-may-moi.webp | Vẽ minh hoạ | Thứ tự cài đặt máy tính Windows mới |
+| hd-usb-win.webp | Tái tạo giao diện | Cài đặt Rufus tạo USB cài Windows chuẩn GPT/UEFI |
+| hd-sao-luu-fh.webp | Tái tạo giao diện | Bật File History và sao lưu thư mục lên OneDrive |
+| hd-chuyen-may.webp | Vẽ minh hoạ | Các bước chuyển dữ liệu sang máy tính mới |
+| hd-lap-ram-ssd.webp | Vẽ minh hoạ | Cắm thanh RAM laptop nghiêng 45 độ rồi ấn xuống |
+| hd-remote.webp | Tái tạo giao diện | Quick Assist hỏi xác nhận trước khi cho điều khiển máy |
+| hd-office.webp | Tái tạo giao diện | Trang Account của Word báo Product Activated |
+| hd-unikey.webp | Tái tạo giao diện | Bảng điều khiển UniKey với Unicode và Telex |
+| hd-zalo.webp | Tái tạo giao diện | Mục sao lưu và khôi phục tin nhắn Zalo |
+| hd-outlook.webp | Tái tạo giao diện | Thêm tài khoản email vào Outlook với thông số IMAP/SMTP |
+| hd-mat-khau.webp | Tái tạo giao diện | Cài đặt xác minh 2 bước và mã dự phòng |
+| hd-tre-em.webp | Tái tạo giao diện | Cài đặt kiểm soát của phụ huynh trên Windows và router |
+| hd-ups.webp | Vẽ minh hoạ | Cách tính công suất UPS cho máy tính |
 | khong-len-nguon.webp | Vẽ minh hoạ | Thùng máy bấm nguồn không có đèn, quạt không quay |
 | khong-len-hinh.webp | Vẽ minh hoạ | Màn hình đen trong khi thùng máy đèn sáng, quạt quay |
 | hong-nguon-main.webp | Vẽ minh hoạ | Bộ nguồn máy tính bốc khói, mùi khét |
