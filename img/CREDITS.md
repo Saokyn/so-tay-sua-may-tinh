@@ -1,6 +1,6 @@
 # Nguồn hình ảnh
 
-Tất cả 125 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ tay sửa máy tính (SVG vẽ tay → WebP). Không có ảnh chụp, ảnh của bên thứ ba hay logo thương hiệu. Giấy phép: CC0.
+Tất cả 151 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ tay sửa máy tính (SVG vẽ tay → WebP). Không có ảnh chụp, ảnh của bên thứ ba hay logo thương hiệu. Giấy phép: CC0.
 
 | Tệp | Loại | Mô tả |
 |---|---|---|
@@ -129,3 +129,29 @@ Tất cả 125 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho S�
 | mac-khoi-dong.webp | Tái tạo giao diện | Màn hình tuỳ chọn khởi động của Mac Apple silicon |
 | android-ket-noi.webp | Tái tạo giao diện | Thông báo USB trên Android đang ở chế độ chỉ sạc |
 | iphone-ket-noi.webp | Tái tạo giao diện | iPhone hỏi Trust This Computer |
+| tu-restart-win.webp | Tái tạo giao diện | Hộp thoại Startup and Recovery bật Automatically restart và Event Viewer có Kernel-Power 41 |
+| tat-sau-vai-giay.webp | Vẽ minh hoạ | Thùng máy vừa bật đèn quạt rồi tự tắt sau vài giây |
+| bam-nhieu-lan.webp | Vẽ minh hoạ | Ngón tay bấm nút nguồn ba lần, lần thứ ba máy mới lên |
+| vong-lap-logo.webp | Tái tạo giao diện | Màn hình logo Windows với chữ Restarting và mũi tên vòng lặp |
+| treo-cung.webp | Tái tạo giao diện | Cửa sổ ứng dụng Not Responding và con trỏ chuột bị đóng băng |
+| nut-nguon-chap.webp | Vẽ minh hoạ | Bo mạch với chân PWR_SW và nút nguồn bị kẹt |
+| tat-khi-choi-game.webp | Vẽ minh hoạ | Màn hình đang chơi game bên cạnh bộ nguồn được khoanh |
+| quat-ru-lien-tuc.webp | Vẽ minh hoạ | Quạt máy rú hết tốc trong khi CPU chỉ 8% và 46°C |
+| quat-khong-quay.webp | Vẽ minh hoạ | Quạt tản nhiệt CPU đứng yên, gạch chéo đỏ, nhiệt 94°C |
+| throttling-cham.webp | Tái tạo giao diện | HWiNFO báo Thermal Throttling Yes và Effective Clock chỉ 1,19 GHz |
+| tien-trinh-ngam.webp | Tái tạo giao diện | Task Manager có tiến trình lạ chiếm 91% CPU và 98% GPU lúc rảnh |
+| gpu-artifact-nong.webp | Vẽ minh hoạ | Màn hình có sọc và hạt màu lạ khi máy nóng |
+| tdr-do-hoa.webp | Tái tạo giao diện | Thông báo Display driver stopped responding and has recovered |
+| man-den-may-van-chay.webp | Vẽ minh hoạ | Màn hình tắt đen trong khi thùng máy đèn sáng và quạt vẫn quay |
+| ram-thieu-dung-luong.webp | Tái tạo giao diện | Task Manager báo lắp 16 GB nhưng đang chỉ dùng được 8 GB |
+| xmp-khong-on.webp | Tái tạo giao diện | Màn hình BIOS với XMP đang bật và bus RAM cao hơn chuẩn JEDEC |
+| psu-yeu-tu-phong.webp | Vẽ minh hoạ | Bộ nguồn với tụ điện phồng và nhãn công suất thấp hơn tải GPU+CPU |
+| dien-giat-vo.webp | Vẽ minh hoạ | Tay chạm vỏ máy bị giật, so sánh phích 2 chấu và 3 chấu có tiếp đất |
+| bios-mat-cau-hinh.webp | Tái tạo giao diện | Màn hình BIOS báo CMOS checksum error, battery low và cấu hình về mặc định |
+| laptop-tu-thuc.webp | Tái tạo giao diện | Kết quả lệnh powercfg lastwake và waketimers cho thấy chuột và Windows Update đánh thức máy |
+| whea-phan-cung.webp | Tái tạo giao diện | Event Viewer hiện WHEA-Logger ID 18 lỗi Processor Machine Check không sửa được |
+| sac-sai-cong-suat.webp | Vẽ minh hoạ | Laptop yêu cầu 90 W đang cắm cục sạc điện thoại 20 W |
+| mui-khet-tieng-tach.webp | Vẽ minh hoạ | Bộ nguồn bốc khói với biển STOP |
+| ssd-nvme-nong.webp | Vẽ minh hoạ | Ổ SSD NVMe nóng 87°C dưới tấm che tản nhiệt, có throttling |
+| cap-nguon-gpu.webp | Vẽ minh hoạ | So sánh đầu nguồn card đồ hoạ cắm hở và đầu cắm sát có chốt khoá |
+| cam-bien-nhiet-loi.webp | Tái tạo giao diện | HWiNFO có một cảm biến AUX 127°C trong khi CPU/GPU khoảng 45°C, quạt max |

@@ -28,7 +28,7 @@ app/
 | `#/fav`, `#/safety`, `#/tools`, `#/parts`, `#/maint` | Yêu thích, An toàn, Phím tắt, Thuật ngữ, Bảo trì định kỳ |
 | `#/ai` | Hỏi AI |
 
-### Nhóm nội dung (122 hướng dẫn = 86 sửa lỗi + 36 hướng dẫn cài đặt; 33 chủ đề, 8 nhóm — v6 thêm nhóm “Hướng dẫn cài đặt & kết nối” (8 chủ đề) và bộ lọc Loại; v5 thêm 34 hướng dẫn nhóm “Lỗi không ngờ tới” trong 7 chủ đề: phần cứng 19 · Windows/khởi động/dữ liệu 10 · ngoại vi 8 · mạng 7 · ứng dụng 4 · macOS & điện thoại 4)
+### Nhóm nội dung (148 hướng dẫn = 112 sửa lỗi + 36 hướng dẫn cài đặt; 35 chủ đề, 8 nhóm — v7 thêm 26 hướng dẫn sửa lỗi và 2 chủ đề “Khởi động & tự restart”, “Nhiệt độ & tản nhiệt”; v6 thêm nhóm “Hướng dẫn cài đặt & kết nối” (8 chủ đề) và bộ lọc Loại; v5 thêm 34 hướng dẫn nhóm “Lỗi không ngờ tới” trong 7 chủ đề: phần cứng 19 · Windows/khởi động/dữ liệu 10 · ngoại vi 8 · mạng 7 · ứng dụng 4 · macOS & điện thoại 4)
 - Danh sách đầy đủ xem ở trang chủ ứng dụng (mỗi nhóm hiện số hướng dẫn).
 
 ### Định dạng dữ liệu (`data.js`)
@@ -65,7 +65,7 @@ app/
 - Tìm kiếm: so khớp theo từ (khớp nguyên từ hoặc tiền tố từ ≥3 ký tự), bắt buộc đủ mọi từ, ưu tiên cụm từ và tiêu đề.
 
 ## Hình ảnh (v3)
-- 125 hình WebP 800×500 (q75) trong app/img/, tự vẽ bằng SVG (imggen/*.py → build.py), 88 tái tạo giao diện + 37 vẽ minh hoạ, 0 ảnh bên thứ ba (xem img/CREDITS.md, trang #/credits).
+- 151 hình WebP 800×500 (q75) trong app/img/, tự vẽ bằng SVG (imggen/*.py → build.py), 0 ảnh bên thứ ba (xem img/CREDITS.md, trang #/credits).
 - Mỗi triệu chứng hiện ảnh của hướng dẫn đích; ảnh bước: CMOS, SMART, đèn router (src/p7.js sinh từ imggen/mkp7.py).
 - SW stsmt-v3 precache toàn bộ ảnh. Chủ đề Zalo và Họp online tách riêng.
 
@@ -79,3 +79,8 @@ app/
 - Cấu trúc hướng dẫn: Mục đích · Cần chuẩn bị · Các bước · Kiểm tra kết quả · Lỗi hay gặp (liên kết bài sửa lỗi) · An toàn · Tự làm/ra tiệm.
 - Bộ lọc Loại (Tất cả / Sửa lỗi / Hướng dẫn) ở trang chủ (#/loai/hd, #/loai/sua) và trang tìm kiếm (#/sk/hd/…); tìm kiếm bao gồm mục đích, kiểm tra, lỗi hay gặp.
 - 36 hình mới (imggen/i14–i17.py). Service worker stsmt-v6.
+
+## v7 (chưa đẩy lên mạng)
+- Thêm 26 hướng dẫn sửa lỗi về khởi động, tự restart, nhiệt, nguồn và lỗi phần cứng thường gặp (src/p10a–p10c.js). Hai chủ đề mới: “Khởi động & tự restart” và “Nhiệt độ & tản nhiệt”; bổ sung câu hỏi chẩn đoán ở các chủ đề sẵn có.
+- Đào sâu các mục đã có: Tự tắt/tự khởi động lại, Máy nóng, Vệ sinh/thay keo (pad VRM/VRAM), Máy chậm (throttling), Ổ cứng (NVMe nóng).
+- 26 hình mới (imggen/i18–i20.py). Service worker stsmt-v7. Tổng 148 hướng dẫn (112 sửa lỗi + 36 hướng dẫn), 35 chủ đề, 151 hình.
