@@ -28,7 +28,7 @@ app/
 | `#/fav`, `#/safety`, `#/tools`, `#/parts`, `#/maint` | Yêu thích, An toàn, Phím tắt, Thuật ngữ, Bảo trì định kỳ |
 | `#/ai` | Hỏi AI |
 
-### Nhóm nội dung (148 hướng dẫn = 112 sửa lỗi + 36 hướng dẫn cài đặt; 35 chủ đề, 8 nhóm — v7 thêm 26 hướng dẫn sửa lỗi và 2 chủ đề “Khởi động & tự restart”, “Nhiệt độ & tản nhiệt”; v6 thêm nhóm “Hướng dẫn cài đặt & kết nối” (8 chủ đề) và bộ lọc Loại; v5 thêm 34 hướng dẫn nhóm “Lỗi không ngờ tới” trong 7 chủ đề: phần cứng 19 · Windows/khởi động/dữ liệu 10 · ngoại vi 8 · mạng 7 · ứng dụng 4 · macOS & điện thoại 4)
+### Nhóm nội dung (168 hướng dẫn = 132 sửa lỗi + 36 hướng dẫn cài đặt; 36 chủ đề, 8 nhóm — v8 thêm 20 hướng dẫn sửa lỗi và chủ đề “Disk/CPU 100% & ứng dụng nền”; v7 thêm 26 hướng dẫn sửa lỗi và 2 chủ đề “Khởi động & tự restart”, “Nhiệt độ & tản nhiệt”; v6 thêm nhóm “Hướng dẫn cài đặt & kết nối” (8 chủ đề) và bộ lọc Loại; v5 thêm 34 hướng dẫn nhóm “Lỗi không ngờ tới” trong 7 chủ đề: phần cứng 19 · Windows/khởi động/dữ liệu 10 · ngoại vi 8 · mạng 7 · ứng dụng 4 · macOS & điện thoại 4)
 - Danh sách đầy đủ xem ở trang chủ ứng dụng (mỗi nhóm hiện số hướng dẫn).
 
 ### Định dạng dữ liệu (`data.js`)
@@ -65,7 +65,7 @@ app/
 - Tìm kiếm: so khớp theo từ (khớp nguyên từ hoặc tiền tố từ ≥3 ký tự), bắt buộc đủ mọi từ, ưu tiên cụm từ và tiêu đề.
 
 ## Hình ảnh (v3)
-- 151 hình WebP 800×500 (q75) trong app/img/, tự vẽ bằng SVG (imggen/*.py → build.py), 0 ảnh bên thứ ba (xem img/CREDITS.md, trang #/credits).
+- 171 hình WebP 800×500 (q75) trong app/img/, tự vẽ bằng SVG (imggen/*.py → build.py), 0 ảnh bên thứ ba (xem img/CREDITS.md, trang #/credits).
 - Mỗi triệu chứng hiện ảnh của hướng dẫn đích; ảnh bước: CMOS, SMART, đèn router (src/p7.js sinh từ imggen/mkp7.py).
 - SW stsmt-v3 precache toàn bộ ảnh. Chủ đề Zalo và Họp online tách riêng.
 
@@ -84,3 +84,9 @@ app/
 - Thêm 26 hướng dẫn sửa lỗi về khởi động, tự restart, nhiệt, nguồn và lỗi phần cứng thường gặp (src/p10a–p10c.js). Hai chủ đề mới: “Khởi động & tự restart” và “Nhiệt độ & tản nhiệt”; bổ sung câu hỏi chẩn đoán ở các chủ đề sẵn có.
 - Đào sâu các mục đã có: Tự tắt/tự khởi động lại, Máy nóng, Vệ sinh/thay keo (pad VRM/VRAM), Máy chậm (throttling), Ổ cứng (NVMe nóng).
 - 26 hình mới (imggen/i18–i20.py). Service worker stsmt-v7. Tổng 148 hướng dẫn (112 sửa lỗi + 36 hướng dẫn), 35 chủ đề, 151 hình.
+
+## v8 (chưa đẩy lên mạng)
+- Thêm 20 hướng dẫn sửa lỗi về hiệu năng và tải nền (src/p11a–p11b.js): Disk 100%, lag khi Task Manager không thấy ứng dụng nặng, CPU 100%, RAM đầy/rò rỉ, GPU nền, chậm sau Update, khởi động chậm, mở app chậm, chuột/hình khựng (stutter), game tụt FPS, trình duyệt ngốn RAM, chế độ nguồn/Core parking, Not Responding, System Interrupts/DPC, Defender quét, OneDrive đồng bộ, Windows Search indexer, copy file chậm, WSL/Docker, Delivery Optimization.
+- Chủ đề mới: “Disk/CPU 100% & ứng dụng nền”; bổ sung câu hỏi chẩn đoán ở Chậm/nóng/nâng cấp, Khởi động & tự restart, Ổ cứng & RAM, Pin, Update, Office & trình duyệt, chuột, Explorer/OneDrive.
+- Đào sâu các mục đã có: Máy chậm (khoanh nút thắt, Active time), Ổ C đầy (SSD gần đầy/TRIM, không defrag SSD), Explorer treo (thumbnail, Preview pane, shell extension), diệt virus cài chồng (hai real-time scan / Disk 100%), chậm khi rút sạc (Battery saver, `powercfg /energy`), chuột giật mặt bàn (phân biệt stutter hệ thống), trình duyệt (ngốn RAM), tiến trình ngầm (Process Explorer + VirusTotal, phần mềm giấu mặt).
+- 20 hình mới (imggen/i21–i23.py). Service worker stsmt-v8. Tổng 168 hướng dẫn (132 sửa lỗi + 36 hướng dẫn), 36 chủ đề, 171 hình.

@@ -1,6 +1,6 @@
 # Nguồn hình ảnh
 
-Tất cả 151 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ tay sửa máy tính (SVG vẽ tay → WebP). Không có ảnh chụp, ảnh của bên thứ ba hay logo thương hiệu. Giấy phép: CC0.
+Tất cả 171 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ tay sửa máy tính (SVG vẽ tay → WebP). Không có ảnh chụp, ảnh của bên thứ ba hay logo thương hiệu. Giấy phép: CC0.
 
 | Tệp | Loại | Mô tả |
 |---|---|---|
@@ -155,3 +155,23 @@ Tất cả 151 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho S�
 | ssd-nvme-nong.webp | Vẽ minh hoạ | Ổ SSD NVMe nóng 87°C dưới tấm che tản nhiệt, có throttling |
 | cap-nguon-gpu.webp | Vẽ minh hoạ | So sánh đầu nguồn card đồ hoạ cắm hở và đầu cắm sát có chốt khoá |
 | cam-bien-nhiet-loi.webp | Tái tạo giao diện | HWiNFO có một cảm biến AUX 127°C trong khi CPU/GPU khoảng 45°C, quạt max |
+| disk-100.webp | Tái tạo giao diện | Task Manager Disk báo Active time 100% trong khi tốc độ chỉ khoảng 1 MB/s và thời gian phản hồi 48 ms |
+| ung-dung-nen.webp | Tái tạo giao diện | Bên trái Task Manager CPU chỉ 7%, bên phải Resource Monitor chỉ ra SearchIndexer, Defender, WMI và Interrupts |
+| cpu-100.webp | Tái tạo giao diện | Task Manager CPU 100% với WMI Provider Host 47% và Antimalware Service Executable 22% |
+| ram-day-ro-ri.webp | Tái tạo giao diện | Task Manager Memory gần đầy 16 GB, Non-paged pool chiếm 1,84 GB và tăng theo giờ |
+| gpu-nen.webp | Tái tạo giao diện | Task Manager GPU 76% khi không chơi game, tiến trình GPU Process của trình duyệt chiếm 48% |
+| cham-sau-update.webp | Tái tạo giao diện | Lịch sử Windows Update vừa cài thành công và các tiến trình TiWorker, Defender, SearchIndexer còn chiếm tài nguyên |
+| khoi-dong-cham.webp | Vẽ minh hoạ | Dòng thời gian từ lúc bấm nguồn đến desktop dùng được mất hơn 3 phút, nhiều ứng dụng Startup High impact |
+| mo-app-cham.webp | Vẽ minh hoạ | Bấm biểu tượng ứng dụng rồi phải chờ 22 giây, Resource Monitor cho thấy Defender đang quét file |
+| chuot-khung.webp | Vẽ minh hoạ | Cửa sổ tài liệu bị khựng, con trỏ đứng nhịp và LatencyMon báo DPC cao do driver Wi-Fi |
+| game-stutter.webp | Vẽ minh hoạ | Màn hình game với FPS trung bình 118 nhưng 1% low chỉ 11 và đồ thị frame time có các đỉnh giật |
+| trinh-duyet-ram.webp | Tái tạo giao diện | Trình quản lý tác vụ của trình duyệt: tab Figma 1,2 GB và tiện ích coupon 610 MB |
+| che-do-nguon.webp | Tái tạo giao diện | Cài đặt nguồn nâng cao: PCI Express Maximum power savings, USB selective suspend và Energy saver đang bật |
+| app-not-responding.webp | Tái tạo giao diện | Cửa sổ Excel Not Responding và hộp Analyze wait chain cho thấy đang chờ OneDrive |
+| system-interrupts.webp | Tái tạo giao diện | Task Manager System interrupts chiếm 42% CPU và LatencyMon chỉ driver Wi-Fi rtwlane.sys trễ nhất |
+| defender-quet.webp | Tái tạo giao diện | Windows Security đang Quick scan và Task Manager cho thấy MsMpEng chiếm 38% CPU cùng 71% Disk |
+| onedrive-cham.webp | Tái tạo giao diện | File Explorer có OneDrive đang đồng bộ hơn 12 nghìn file, thư mục dự án đang tải lên và file lớn chỉ trên mây |
+| search-index.webp | Tái tạo giao diện | Indexing Options đang chạy 34%, phạm vi gồm cả ổ mạng và node_modules, SearchIndexer chiếm Disk 61% |
+| copy-file-cham.webp | Tái tạo giao diện | Hộp thoại copy Windows tốc độ 0,7 MB/s, hàng nghìn file nhỏ sang USB 2.0, thời gian phản hồi 62 ms |
+| wsl-docker-nen.webp | Tái tạo giao diện | Task Manager với vmmemWSL chiếm 6,1 GB RAM và Docker đang chạy nền |
+| delivery-opt.webp | Tái tạo giao diện | Delivery Optimization đang bật chia sẻ Internet và đã upload 14,6 GB cho máy khác |
