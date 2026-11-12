@@ -1,6 +1,6 @@
 # Nguồn hình ảnh
 
-Tất cả 171 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ tay sửa máy tính (SVG vẽ tay → WebP). Không có ảnh chụp, ảnh của bên thứ ba hay logo thương hiệu. Giấy phép: CC0.
+Tất cả 201 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ tay sửa máy tính (SVG vẽ tay → WebP). Không có ảnh chụp, ảnh của bên thứ ba hay logo thương hiệu. Giấy phép: CC0.
 
 | Tệp | Loại | Mô tả |
 |---|---|---|
@@ -175,3 +175,33 @@ Tất cả 171 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho S�
 | copy-file-cham.webp | Tái tạo giao diện | Hộp thoại copy Windows tốc độ 0,7 MB/s, hàng nghìn file nhỏ sang USB 2.0, thời gian phản hồi 62 ms |
 | wsl-docker-nen.webp | Tái tạo giao diện | Task Manager với vmmemWSL chiếm 6,1 GB RAM và Docker đang chạy nền |
 | delivery-opt.webp | Tái tạo giao diện | Delivery Optimization đang bật chia sẻ Internet và đã upload 14,6 GB cho máy khác |
+| bsod-minidump.webp | Tái tạo giao diện | WinDbg phân tích minidump với lệnh !analyze -v chỉ ra rtwlane.sys, bên cạnh bảng phân biệt lỗi driver và lỗi phần cứng |
+| bsod-o-he-thong.webp | Tái tạo giao diện | Màn hình xanh CRITICAL_PROCESS_DIED và bảng các bước kiểm tra ổ, chkdsk, DISM, sfc |
+| bsod-irql.webp | Tái tạo giao diện | Màn hình xanh DRIVER_IRQL_NOT_LESS_OR_EQUAL với What failed rtwlane.sys và danh sách driver cần nghi |
+| bsod-bo-nho.webp | Tái tạo giao diện | Màn hình xanh MEMORY_MANAGEMENT và các bước kiểm tra RAM |
+| bsod-exception.webp | Tái tạo giao diện | Màn hình xanh SYSTEM_SERVICE_EXCEPTION với netio.sys và danh sách phần mềm cấp nhân hay gây lỗi |
+| bsod-inaccessible-boot.webp | Tái tạo giao diện | Màn hình xanh INACCESSIBLE_BOOT_DEVICE và các nguyên nhân do chế độ SATA, VMD, ổ |
+| bsod-video-tdr.webp | Tái tạo giao diện | Màn hình xanh VIDEO_TDR_FAILURE với nvlddmkm.sys và tên driver đồ hoạ của từng hãng |
+| bsod-watchdog-power.webp | Tái tạo giao diện | Màn hình xanh DPC_WATCHDOG_VIOLATION với iaStorA.sys và các hướng kiểm tra |
+| bsod-whea-clock.webp | Tái tạo giao diện | Màn hình xanh WHEA_UNCORRECTABLE_ERROR và các bước kiểm tra phần cứng |
+| bsod-driver-sys.webp | Tái tạo giao diện | Bảng tra tên file .sys thường gặp trên màn hình xanh và driver tương ứng |
+| app-crash.webp | Tái tạo giao diện | Reliability Monitor hiển thị chi tiết lỗi: game.exe, module ucrtbase.dll, mã 0xc0000409, sự kiện 1000 |
+| xung-dot-overlay.webp | Vẽ minh hoạ | Minh hoạ một game bị nhiều overlay Discord, Steam, RTSS, Game Bar, NVIDIA cùng chèn vào |
+| start-menu-taskbar.webp | Tái tạo giao diện | Task Manager với Windows Explorer được chọn và nút Restart, Start và Search đang treo |
+| profile-tam.webp | Tái tạo giao diện | Registry ProfileList với hai khoá cùng SID, một khoá đuôi .bak trỏ vào thư mục người dùng thật |
+| loi-0x80070005.webp | Tái tạo giao diện | Windows Update báo lỗi 0x80070005 Access is denied và Protection history báo Controlled folder access chặn |
+| ms-store.webp | Tái tạo giao diện | Microsoft Store báo Try that again với mã 0x80131500 và lệnh wsreset để sửa |
+| app-cant-run.webp | Tái tạo giao diện | Hộp thoại This app can’t run on your PC và màn hình SmartScreen Windows protected your PC với nhà phát hành không rõ |
+| font-tieng-viet.webp | Tái tạo giao diện | So sánh văn bản TCVN3 hiển thị sai và văn bản Unicode đúng sau khi chuyển mã bằng Unikey Toolkit |
+| win-kich-hoat.webp | Tái tạo giao diện | Desktop có hình mờ Activate Windows, trang Activation báo Not active lỗi 0x803F7001 và cảnh báo không dùng activator |
+| driver-tu-thay.webp | Tái tạo giao diện | Group Policy Do not include drivers with Windows Updates được bật và lệnh pnputil xoá gói driver lỗi |
+| thieu-dll.webp | Tái tạo giao diện | Hộp thoại báo thiếu MSVCP140.dll và danh sách cách sửa đúng: cài Visual C++ x64 và x86, DirectX, không tải DLL lẻ |
+| loi-0xc000007b.webp | Tái tạo giao diện | Hộp thoại lỗi 0xc000007b và hai thẻ giải thích nguyên nhân của mã 0xc000007b và 0xc0000135 |
+| khong-tim-thay-duong-dan.webp | Tái tạo giao diện | Hộp thoại Windows cannot find app.exe và danh sách các bước kiểm tra shortcut, ổ, OneDrive, Image Hijacks |
+| file-he-thong-hong.webp | Tái tạo giao diện | Terminal chạy DISM RestoreHealth thành công rồi sfc /scannow sửa được file hỏng |
+| adware-trinh-duyet.webp | Tái tạo giao diện | Trang chrome://policy hiển thị Managed by your organization với trang chủ và công cụ tìm kiếm lạ bị ép |
+| ransomware.webp | Tái tạo giao diện | Thư mục file bị đổi đuôi .locked, file đòi tiền chuộc và danh sách việc cần làm ngay khi dính ransomware |
+| virus-usb.webp | Tái tạo giao diện | USB chỉ còn các shortcut thay cho thư mục và lệnh attrib để hiện lại file bị ẩn |
+| trojan-tai-khoan.webp | Tái tạo giao diện | Điện thoại hiển thị danh sách thiết bị đăng nhập có một thiết bị lạ và các bước lấy lại tài khoản |
+| defender-cach-ly.webp | Tái tạo giao diện | Protection history của Windows Security với một Trojan bị cách ly và hai nút Restore và Remove |
+| quet-offline.webp | Tái tạo giao diện | Autoruns với hai mục tự chạy không có chữ ký nằm trong AppData và Temp được tô đỏ, kèm các công cụ quét offline |
