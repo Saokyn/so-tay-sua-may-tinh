@@ -1,6 +1,6 @@
 # Nguồn hình ảnh
 
-Tất cả 201 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ tay sửa máy tính (SVG vẽ tay → WebP). Không có ảnh chụp, ảnh của bên thứ ba hay logo thương hiệu. Giấy phép: CC0.
+Tất cả 237 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho Sổ tay sửa máy tính (SVG vẽ tay → WebP). Không có ảnh chụp, ảnh của bên thứ ba hay logo thương hiệu. Giấy phép: CC0.
 
 | Tệp | Loại | Mô tả |
 |---|---|---|
@@ -205,3 +205,39 @@ Tất cả 201 hình trong `app/img/` là **hình minh hoạ tự vẽ** cho S�
 | trojan-tai-khoan.webp | Tái tạo giao diện | Điện thoại hiển thị danh sách thiết bị đăng nhập có một thiết bị lạ và các bước lấy lại tài khoản |
 | defender-cach-ly.webp | Tái tạo giao diện | Protection history của Windows Security với một Trojan bị cách ly và hai nút Restore và Remove |
 | quet-offline.webp | Tái tạo giao diện | Autoruns với hai mục tự chạy không có chữ ký nằm trong AppData và Temp được tô đỏ, kèm các công cụ quét offline |
+| bip-post-hang.webp | Vẽ minh hoạ | Loa bíp trong thùng máy và bảng so sánh nhịp bíp của AMI, Award/Phoenix và Dell máy bàn |
+| debug-led-qcode.webp | Vẽ minh hoạ | Bo mạch có bốn đèn debug với đèn DRAM sáng cam, màn Q-Code hiện 55 và bảng các mã Q-Code thường gặp |
+| den-nhay-dell.webp | Vẽ minh hoạ | Đèn pin laptop Dell nháy hai lần màu hổ phách và ba lần màu trắng, kèm bảng mã đèn chẩn đoán Dell |
+| den-nhay-hp.webp | Vẽ minh hoạ | Phím Caps Lock HP với đèn đỏ, chuỗi ba nháy dài đỏ và hai nháy ngắn trắng, kèm bảng mã đèn HP |
+| chan-doan-lenovo.webp | Tái tạo giao diện | Màn hình POST ThinkPad báo lỗi 2100 và 0271, kèm bảng các mã lỗi ThinkPad thường gặp |
+| cpu-fan-error.webp | Tái tạo giao diện | Màn POST báo CPU Fan Error Press F1 to Resume và sơ đồ ba header quạt CPU_FAN, CPU_OPT, AIO_PUMP trên bo mạch |
+| post-thong-bao.webp | Tái tạo giao diện | Màn hình POST với các thông báo CMOS Checksum Bad, Overclocking failed, USB Device Over Current, Chassis Intruded và bảng hướng xử lý |
+| secure-boot-loi.webp | Tái tạo giao diện | Hộp thoại đỏ Secure Boot Violation và dòng thời gian ba chứng chỉ Microsoft 2011 hết hạn tháng 6 và tháng 10 năm 2026 |
+| bios-update-hong.webp | Vẽ minh hoạ | Mặt sau bo mạch với cổng USB BIOS và nút FlashBack, USB FAT32, kèm bảng cách phục hồi BIOS theo hãng |
+| ma-loi-khoi-dong.webp | Tái tạo giao diện | Màn hình Recovery báo lỗi 0xc000000f với file BCD, Terminal chạy bcdboot và bảng mã lỗi khởi động |
+| loi-0xc000021a.webp | Tái tạo giao diện | Vòng lặp Preparing Automatic Repair, thông báo Automatic Repair couldn’t repair your PC và file SrtTrail.txt chỉ ra driver bị hỏng |
+| cai-win-khong-thay-o.webp | Tái tạo giao diện | Màn cài Windows báo We couldn’t find any drives với nút Load driver và thư mục driver Intel RST có file iaStorVD.inf |
+| cai-win-gpt-mbr.webp | Tái tạo giao diện | Hộp thoại Windows cannot be installed to this disk GPT, Command Prompt chạy diskpart clean và convert gpt, bảng lỗi cài đặt |
+| nang-cap-0xc1900101.webp | Tái tạo giao diện | Màn hình Undoing changes khi nâng cấp Windows, SetupDiag chỉ ra driver diệt virus và bảng mã phụ 0xC1900101 |
+| winre-0x80070643.webp | Tái tạo giao diện | Sơ đồ phân vùng trước và sau khi thu nhỏ ổ C 250 MB để mở rộng phân vùng Recovery, kèm các lệnh reagentc và diskpart |
+| ma-loi-update.webp | Tái tạo giao diện | Bảng tra mã lỗi Windows Update với nguyên nhân và cách sửa cho các mã 0x80070422, 0x8024402c, 0x800f0922, 0x800f081f… |
+| device-manager-ma.webp | Tái tạo giao diện | Hộp thoại Properties của thiết bị báo This device cannot start Code 10 và bảng tra các mã lỗi Device Manager |
+| usb-descriptor.webp | Tái tạo giao diện | Device Manager hiện Unknown USB Device Device Descriptor Request Failed và danh sách kiểm tra cáp, cổng, nguồn |
+| hardware-id-driver.webp | Tái tạo giao diện | Tab Details hiện Hardware Ids PCI VEN_8086 DEV_A0E8 với chú thích VEN là hãng chip, DEV là mã chip, kèm bảng mã hãng |
+| gpu-code-43.webp | Vẽ minh hoạ | Card đồ hoạ với hai đầu nguồn 8-pin, chân PCIe, Device Manager báo Code 43 và các bước xử lý |
+| memory-integrity.webp | Tái tạo giao diện | Trang Core isolation với Memory integrity đang tắt và danh sách driver không tương thích, kèm lệnh pnputil xoá gói driver |
+| dock-usb-c.webp | Vẽ minh hoạ | Laptop với ba loại cổng USB-C nối dock ra hai màn hình, kèm bảng loại dock và yêu cầu tương ứng |
+| nvme-khong-nhan.webp | Vẽ minh hoạ | Hai ổ M.2 NVMe và M.2 SATA trông giống nhau, sơ đồ khe M.2 dùng chung làn với cổng SATA trên bo mạch |
+| o-moi-khong-hien.webp | Tái tạo giao diện | Disk Management hiện Disk 1 Unknown Not Initialized và hộp thoại Initialize Disk chọn GPT, kèm bảng trạng thái ổ |
+| no-internet-secured.webp | Tái tạo giao diện | Danh sách Wi-Fi báo No internet, secured, biểu tượng quả địa cầu và các bước kiểm tra NCSI msftconnecttest |
+| wifi-mat-adapter.webp | Tái tạo giao diện | Quick Settings không còn ô Wi-Fi và Device Manager báo card Intel Wi-Fi 6E AX211 Code 10, kèm các bước xử lý |
+| chrome-ma-loi.webp | Tái tạo giao diện | Trang lỗi trình duyệt ERR_CONNECTION_RESET và bảng ý nghĩa các mã lỗi ERR thường gặp |
+| smb-loi.webp | Tái tạo giao diện | Hai hộp thoại lỗi 0x80070035 network path not found và chặn truy cập guest, kèm cách xử lý với NAS |
+| in-mang-0x11b.webp | Tái tạo giao diện | Hộp thoại lỗi 0x0000011b khi kết nối máy in chia sẻ, sơ đồ máy khách và máy chia sẻ qua RPC, bảng cách sửa theo mã |
+| lan-100mbps.webp | Vẽ minh hoạ | Đầu RJ45 với tám sợi dây theo chuẩn T568B, một cặp bị đứt, và cài đặt Ethernet hiển thị Link speed 100 Mbps |
+| adapter-unknown.webp | Vẽ minh hoạ | Đầu sạc Dell với chân giữa nhận dạng được khoanh đỏ, dây gãy gần đầu cắm, và cảnh báo The AC power adapter type cannot be determined |
+| ban-le-cap-man.webp | Vẽ minh hoạ | Laptop nhìn nghiêng với bản lề bị nứt vỏ, đường đi của cáp màn eDP qua bản lề và màn hình có sọc |
+| diem-chet-ho-sang.webp | Vẽ minh hoạ | Màn hình nền đen có một điểm kẹt đỏ, một điểm sáng và vùng hở sáng ở góc dưới trái, kèm bảng phân biệt các hiện tượng |
+| man-den-con-tro.webp | Tái tạo giao diện | Màn hình đen chỉ có con trỏ chuột, Task Manager chạy explorer.exe và khoá registry Winlogon Shell |
+| event-id.webp | Tái tạo giao diện | Bảng tra nhanh các Event ID quan trọng: 41, 6008, 1001, 7, 51, 129, 153, 55, 98, 7000, 1000, 4625 và 10016 vô hại |
+| domain-trust.webp | Tái tạo giao diện | Màn hình đăng nhập báo lỗi trust relationship và PowerShell chạy Test-ComputerSecureChannel -Repair trả về True |

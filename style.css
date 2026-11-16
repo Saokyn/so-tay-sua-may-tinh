@@ -87,3 +87,4 @@ body.bars-hidden .aiin{bottom:10px}
 .sheet .btn{background:var(--pr);color:#fff}[data-theme=dark] .sheet .btn{color:#04201c}.btn2{background:transparent;color:var(--pr);margin-top:8px}.sheet .row .btn2{margin-top:0}.btn2.dg{border-color:var(--dg);color:var(--dg)}
 .fig{margin:10px 0;background:var(--card);border:1px solid var(--bd);border-radius:12px;overflow:hidden}.fig img{display:block;width:100%;height:auto;background:#f4f6fa}.fig figcaption{font-size:13px;padding:8px 10px;color:var(--mu)}
 .symc{display:block;margin:0 0 12px;overflow:hidden;color:inherit}.symc .fig{margin:0;border:0;border-radius:0}.symn{display:flex;justify-content:space-between;align-items:center;padding:10px 14px}.fig.st{max-width:520px}
+.box.nguon a{color:var(--pr2);word-break:break-word}.box.nguon li{margin:3px 0}

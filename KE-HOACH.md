@@ -97,3 +97,14 @@ app/
 - Đào sâu (src/p12d.js): Màn hình xanh (phân biệt driver/phần cứng), Tra mã lỗi (thêm 0x139, 0x7E, 0x9F, 0x154), Mã độc (dấu hiệu nhiễm, ID Ransomware), Khởi động sạch (Reliability Monitor, Event 1000/1002/1026, Safe Mode, thủ phạm hay gặp); thêm liên kết “Lỗi hay gặp” giữa các bài liên quan.
 - Không hướng dẫn crack, activator hay tải DLL từ trang lạ.
 - 30 hình mới (imggen/i24–i26.py, render-v9.js). Service worker stsmt-v9. Tổng 198 hướng dẫn (162 sửa lỗi + 36 hướng dẫn), 39 chủ đề, 201 hình.
+
+## v10 (đã đưa lên mạng)
+- Thêm 36 hướng dẫn sửa lỗi (src/p13a–p13e.js), diễn giải từ tài liệu nước ngoài, mỗi bài có trường `ref` hiển thị hộp “📚 Nguồn tham khảo” (src/p0.js, app/app.js, style.css).
+- p13a POST/BIOS (9): bíp POST, debug LED/Q-Code, đèn nháy Dell, đèn nháy HP, chẩn đoán Lenovo, CPU fan error, thông báo POST, Secure Boot (chứng chỉ 2011 hết hạn 2026, KB5062710/KB5085046), BIOS update hỏng (tiệm).
+- p13b khởi động/cài/cập nhật (7): mã lỗi khởi động 0xc00000xx, 0xc000021a, cài Win không thấy ổ (VMD/RST), GPT/MBR, 0xC1900101 + SetupDiag, WinRE 0x80070643 (KB5028997), bảng mã lỗi Windows Update.
+- p13c thiết bị/driver (8): mã lỗi Device Manager, Unknown USB Device (Descriptor), Hardware ID → driver, GPU Code 43, Memory integrity bị driver chặn, dock USB-C/Thunderbolt/DisplayLink, NVMe không nhận, ổ mới không hiện.
+- p13d mạng (6): No internet secured/NCSI, Wi-Fi mất adapter, mã lỗi Chrome ERR_*, SMB 24H2 (ký/guest), máy in mạng 0x0000011b/0x709, LAN chỉ 100 Mbps.
+- p13e (6): sạc không nhận (AC adapter unknown), bản lề/cáp màn (tiệm), điểm chết/hở sáng, màn đen có con trỏ, Event ID quan trọng, lỗi trust relationship domain.
+- p13f: liên kết “Lỗi hay gặp” từ bài cũ sang bài mới. Chủ đề mới: “Mã POST, đèn báo & BIOS”, “Laptop: sạc, bản lề & điểm ảnh”, “Mã lỗi khởi động, cài & cập nhật”, “Mã lỗi thiết bị & driver”, “Màn đen, nhật ký & domain”, “Mã lỗi mạng, trình duyệt & chia sẻ”; thêm câu hỏi chẩn đoán vào nhiều triệu chứng cũ.
+- 36 hình mới (imggen/i27–i29.py, build-v10.py, render-v10.js). Service worker stsmt-v10. Tổng 234 hướng dẫn (198 sửa lỗi + 36 hướng dẫn), 45 chủ đề, 8 nhóm, 237 hình.
+- Không hướng dẫn crack, activator hay tải DLL từ trang lạ.

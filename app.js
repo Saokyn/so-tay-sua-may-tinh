@@ -48,6 +48,7 @@ function guide(id){var g=D.GM[id];if(!g)return nf();
  if(g.verify&&g.verify.length)h+='<div class="box"><b>✅ '+(hw?'Kiểm tra kết quả':'Kiểm tra sau khi sửa')+'</b>'+lst(g.verify)+'</div>';
  if(g.loi&&g.loi.length)h+='<div class="box loi"><b>🧩 Lỗi hay gặp</b> <small class="ref">bấm để xem cách sửa</small><div class="list">'+g.loi.filter(function(l){return D.GM[l[1]]}).map(function(l){return '<a class="row" href="#/g/'+l[1]+'"><span>'+esc(l[0])+'<small>'+esc(D.GM[l[1]].title)+'</small></span><i>›</i></a>'}).join('')+'</div></div>';
  if(g.note)h+='<p class="note">💡 '+cx(g.note)+'</p>';
+ if(g.ref&&g.ref.length)h+='<div class="box nguon"><b>📚 Nguồn tham khảo</b> <small class="ref">tài liệu nước ngoài, đã diễn giải và kiểm chứng lại</small><ul>'+g.ref.map(function(r){return '<li>'+(r[1]?'<a href="'+esc(r[1])+'" target="_blank" rel="noopener">'+esc(r[0])+'</a>':esc(r[0]))+'</li>'}).join('')+'</ul></div>';
  if(g.esc)h+='<div class="alert pro"><b>⚖️ Tự làm hay ra tiệm</b><p>'+cx(g.esc)+'</p></div>';
  if(g.svc)h+='<div class="box"><b>Nếu nhờ tiệm</b><p>'+cx(g.svc)+'</p><small class="ref">giá tham khảo, có thể thay đổi</small></div>';
  h+='<div class="alert warn">Không chắc chắn ở bước nào → dừng lại, hỏi AI hoặc mang ra tiệm. Máy còn bảo hành nên mang đến trung tâm bảo hành của hãng.</div>';
